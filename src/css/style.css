@@ -1,0 +1,86 @@
+html {
+     font-size: 62.5%;
+}
+
+body {
+     font-size: 1.6rem;
+     font-family: var(--text-type-1);
+}
+
+.wrapper {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     max-width: 1440px;
+     min-width: 320px;
+     height: 100vh;
+     background-color: var(--primary-cream);
+}
+
+.container  {
+     display: flex;
+     max-width: 640px;
+}
+
+.container .image img {
+     width: 100%;
+     border-radius:10px 0  0  10px;
+}
+
+.container .information {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     padding: 3rem;
+     background-color: var(--neutral-White);
+}
+
+.container .information .product {
+     
+     font-weight: 500;
+     letter-spacing: 5px;
+     text-transform: uppercase;
+     font-size: 1.6rem;
+}
+
+
+
+.container .information .info .name  {
+     font-family: var(--text-type-2);
+     font-size: 3rem;
+     font-weight: 700;
+     margin-bottom: 2rem;
+     line-height: 3rem;
+}
+
+.container .information .info > p {
+    width: 260px;
+}
+
+.container .information .value {
+     display: flex;
+     gap: 2rem;
+     align-items: center;
+}
+.container .information .value .promotion {
+     color: var(--primary-dark);
+}
+
+.container .information .value > p {
+     text-decoration: line-through;
+font-size: 1.4rem;
+    
+}
+
+.container .information .botao .btn {
+     background-color: var(--primary-dark);
+     color: var(--neutral-White);
+     padding: 1rem 0;
+     border-radius: 8px;
+     display: flex;
+     justify-content: center;
+     gap: 1rem;
+     
+}
+
+

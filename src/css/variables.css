@@ -1,0 +1,11 @@
+:root {
+     --text-type-1: 'Montserrat', sans-serif;
+     --text-type-2: 'Fraunces', serif;
+
+     --primary-dark: hsl(158, 36%, 37%);
+     --primary-cream: hsl(30, 38%, 92%);
+
+     --neutral-Very-dark-blue: hsl(212, 21%, 14%)
+     --Dark-grayish-blue: hsl(228, 12%, 48%);
+     --neutral-White: hsl(0, 0%, 100%);
+}
